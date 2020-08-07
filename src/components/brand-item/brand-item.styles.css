@@ -1,0 +1,44 @@
+.brand-item-logo-container {
+    height: 80px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.rectangular {
+    opacity: 0;
+    transition: all 1.2s;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-item-logo-container:hover .rectangular {
+    opacity: 1;
+    transition: all .8s;
+    transform: scale(1);
+}
+
+.brand-item-logo-container img {
+    object-fit: cover;
+}
+
+
+
+.brand-item-logo-container .triangle-brand {
+    height: 70%;
+    width: 70%;
+    border: 1.5px solid #e7cf3c;
+    border-radius: 3px;
+}

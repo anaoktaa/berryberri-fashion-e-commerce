@@ -1,0 +1,86 @@
+.sign-card-container {
+    box-shadow: 2px 2px 5px #8e8e8e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-form-container {
+    width: 50%;
+    text-align: left;
+}
+
+.form-container {
+    padding: 30px 150px 30px 70px;
+    box-sizing: border-box;
+}
+
+.sign-title-text {
+    letter-spacing: 8px;
+}
+
+.sign-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.another-sign-text {
+    font-size: 15px;
+    color: #1f1f1f;
+    border-bottom: 1px solid #c5c5c5; 
+    line-height: 0.1em;
+    margin: 40px 0 40px; 
+    text-align: center;
+}
+
+.another-sign-text span { 
+    background: white;
+    padding:0 20px; 
+}
+
+.logo-social-media-container {
+    width: 20px;
+    height : 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo-social-media-container img {
+    object-fit: cover;
+}
+
+.sign-detail-text {
+    line-height: 25px;
+    font-size: 14px;
+    color: #1f1f1f;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.link-sign-up {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.sign-image-container {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .sign-form-container {
+        width: 100%;
+    }
+    .form-container {
+        padding: 20px 100px;
+    }
+    .sign-image-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 20px 30px;
+    }
+}

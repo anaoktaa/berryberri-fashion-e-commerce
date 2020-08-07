@@ -1,0 +1,99 @@
+.payment-page-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.payment-page-order-summary-container {
+    width: 60%;
+    padding: 0px 10px 15px;
+}
+
+.payment-page-title-text {
+    color: #1f1f1f;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 0 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-display: swap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-page-checkout-header {
+    background-color: #e0e0e0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.header-block-container {
+    width: 25%;
+}
+
+.header-block-container span {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    color: #1f1f1f;
+    text-transform: capitalize;
+    letter-spacing: .8px;
+}
+
+.payment-page-mobile-view {
+    display: none;
+}
+
+.payment-page-form-container {
+    width: 35%;
+    padding: 0px 10px 15px;
+    text-align: left;
+}
+
+.payment-note {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    border: 1px solid #cfd1df;
+    color: #858aa3;
+}
+
+.payment-note p {
+    font-size: 12px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.payment-page-checkout-body {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .payment-page-form-container {
+        width: 100%;
+        padding: 30px 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .payment-page-order-summary-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .payment-page-desktop-view {
+        display: none;
+    }
+
+    .payment-page-mobile-view {
+        display: block;
+    }
+}

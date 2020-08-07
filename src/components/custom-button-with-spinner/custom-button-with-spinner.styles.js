@@ -1,0 +1,30 @@
+import styled from 'styled-components';
+
+export const SpinnerOverlay = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const SpinnerContainer = styled.div`
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 3px solid rgba(195, 195, 195, 0.6);
+  border-radius: 50%;
+  border-top-color: #636767;
+  margin-right: 20px;
+  animation: spin 1.4s ease-in-out infinite;
+  -webkit-animation: spin 1.4s ease-in-out infinite;
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+`;

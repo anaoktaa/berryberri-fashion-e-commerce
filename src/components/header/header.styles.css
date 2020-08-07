@@ -1,0 +1,161 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin: auto;
+    transition: all .6s;
+    background-color: 1f1f1f;
+ 
+}
+
+.white-background-style {
+    background-color: #1f1f1f;
+}
+
+.transparent-background-style {
+    background-color: transparent;
+}
+
+.header-left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrap {
+    height: 50px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-container {
+    height: 190px;
+    width: 190px;
+    padding-right: 30px;
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.option, .dark-option {
+    font-size: 15px;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+.dark-option {
+    color: #1f1f1f;
+}
+
+.option:hover {
+    color: #e7cf3c;
+}
+
+.header-right-menu div {
+    display: inline-block;
+}
+
+.button-shop-now {
+    padding-left: 35px;
+}
+
+.bar-menu {
+    display: none;
+    position: relative;
+}
+
+.menu-hover {
+    display: none;
+}
+
+.option-menu {
+    font-size: 13px;
+    color: #1f1f1f;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    padding: 12px 15px;
+}
+
+.option-menu:hover {
+    background-color: #e2e2e2;
+}
+
+.column { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line  {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.menu-hover-bag-badge {
+    font-size: 11px;
+    color: #1f1f1f;
+    left: 37px;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    background-color: #e7cf3c;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .option {
+        display: none;
+    }
+
+    .dark-option {
+        display: none;
+    }
+
+    .bar-menu {
+        display: block;
+    }
+
+    .header-right-menu {
+        display: none;
+    }
+
+    .menu-hover {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        width: 180px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 2px;
+        padding: 10px 0;
+        background-color: white;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        height: 60px;
+        padding: 0 15px;
+    }
+    .logo-container {
+        height: 170px;
+        width: 170px;
+    }
+    .menu-hover {
+        right: 15px;
+    }
+}

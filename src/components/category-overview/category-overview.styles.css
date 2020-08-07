@@ -1,0 +1,4 @@
+.category-overview-container {
+    display: flex;
+    flex-direction: column;
+}

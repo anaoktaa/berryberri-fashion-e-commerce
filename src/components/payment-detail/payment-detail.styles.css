@@ -1,0 +1,123 @@
+.payment-detail-container {
+    position: sticky;
+    right: 30px;
+    top: 98px;
+    width: 28%;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+}
+
+.payment-detail-voucher-container {
+    margin: 0px 0 0;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+}
+
+.payment-detail-voucher-text {
+    font-size: 13px;
+    text-align: left;
+    line-height: 27px;
+    color: #1f1f1f;
+}
+
+.payment-detail-voucher-text strong {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-detail-input-container {
+    width: 53%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.payment-detail-button-voucher-container {
+    width: 45%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.voucher-text {
+    font-size: 13px;
+    text-align: left;
+    line-height: 27px;
+    color: #1f1f1f;
+}
+
+.total-detail-container {
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.voucher-text  strong {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.payment-detail-total-detail-text {
+    margin: 7px 0 10px;
+    font-size: 14px;
+    color: #1f1f1f;
+}
+
+.total-payment-text {
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 70%;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+}
+
+.total-payment-nominal {
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 70%;
+    line-height: 23px;
+    color: #e7cf3c;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+}
+
+.payment-detail-button-payment-container {
+    width: 100%;
+}
+
+.payment-detail-line {
+    height: 5px;
+    width: 100%;
+    border-bottom: 1.5px solid #cccccc;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .payment-detail-container {
+        width: 100%;
+        position: unset;
+    }
+    .payment-detail-input-container {
+        width: 80%;
+    }
+
+    .payment-detail-button-voucher-container {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .payment-detail-input-container {
+        width: 60%;
+    }
+}

@@ -1,0 +1,54 @@
+.side-image-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.side-image-container img {
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.absolute-container-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.side-image-logo-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+}
+
+.side-image-logo-container img {
+    object-fit: cover;
+}
+
+.welcome-text {
+    font-size: 60px;
+    font-weight: bold;
+    color: #e7cf3c;
+    position: absolute;
+    bottom: 70px;
+    margin: 0;
+    text-transform: uppercase;
+    right: 20px;
+    text-align: right;
+    width: 50%;
+}
+
+.berryberri-text {
+    font-size: 125px;
+    font-weight: bold;
+    color: #ffffff4f;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+.increment-decrement-button-container {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* font-family :${(({fontFamily}) => fontFamily ? fontFamily : CustomStyles.primaryFontText )}; */
+}
+
+.increment-decrement-button-container p {
+    margin: 0;
+    line-height: 34px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.decrement-container {
+    flex: 1;
+    background-color: #cac5c54d;
+    cursor: pointer;
+    border: 1px solid #dadada82;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.increment-container {
+    flex: 1;
+    background-color: #cac5c54d;
+    cursor: pointer;
+    border: 1px solid #dadada82;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.total-container {
+    flex: 1.5;
+    border: 1px solid #dadada82;
+}

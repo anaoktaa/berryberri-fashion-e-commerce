@@ -1,0 +1,127 @@
+.item-preview-container {
+    margin: 0px 0 20px 0;
+    width: 100%;
+}
+
+.item-preview-container:hover .bright-overlay {
+    background-color: #1515153d;
+}
+
+.item-preview-container:hover .section-container .add-button-container {
+    display: block;
+}
+
+.item-preview-container .section-container  {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.section-container .add-button-container {
+    position : absolute;
+    bottom: 30px;
+    width: 80%;
+    display: none;
+}
+
+.item-preview-container .section-container img {
+    object-fit: cover;
+    transition: all 3.5s;
+}
+
+.bright-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition : all .5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.item-preview-detail-item-container {
+    margin: -10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-preview-detail-item-container .item-name-text {
+    font-size: 12px;
+    width: 70%;
+    letter-spacing: 1px;
+    text-align : left;
+    line-height: 25px;
+    margin: 0;
+    color: #000000;
+}
+
+.item-preview-detail-item-container .price-container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vertical-line {
+    border-left: 1px solid #c1c1c1;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.item-preview-detail-item-container .price-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #b7a015;
+    line-height: 25px;
+    margin: 0; 
+}
+
+@media screen and (max-width: 1200px) {
+    .item-preview-container .section-container  {
+        margin-bottom: 20px;
+    }
+
+    .item-preview-detail-item-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .item-preview-detail-item-container .price-text {
+        width: 100%;
+    }
+
+    .item-preview-container .section-container  {
+        height:320px;
+        margin-bottom: 20px;
+    }
+
+    .section-container .add-button-container {
+        width: 90%;
+    }
+
+    .item-preview-detail-item-container .item-name-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item-preview-container .section-container  {
+        height: 260px;
+        margin-bottom: 10px;
+    }
+}

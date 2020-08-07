@@ -1,0 +1,19 @@
+.form-input-group-container {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.form-input-container {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.label-input {
+    font-size: 13px;
+}

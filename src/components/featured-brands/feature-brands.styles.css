@@ -1,0 +1,15 @@
+.feature-brand-container .logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .feature-brand-container {
+        display: none;
+    }
+}
