@@ -1,5 +1,6 @@
 import React from 'react';
 import LazyLoad from 'react-lazy-load';
+import { withRouter } from 'react-router';
 
 import withWindowResize from '../with-window-resize/with-window-resize.component';
 
@@ -8,7 +9,7 @@ import './image-slider.styles.css';
 import CustomButton from '../custom-button/custom-button.component';
 
 
-const ImageSlider = ({imageUrl, highImageUrl,  caption, textPosition, title, actualSize}) => {
+const ImageSlider = ({imageUrl, highImageUrl,  caption, textPosition, title, actualSize, history}) => {
     return (
         <div className='image-slider-container'>
             <LazyLoad height='100vh'>
@@ -19,7 +20,7 @@ const ImageSlider = ({imageUrl, highImageUrl,  caption, textPosition, title, act
                     <div className={`${textPosition === 'left' ? `position-left`: textPosition === 'right'? `position-right` : `position-center` } caption`}>
                         <div className={`${textPosition === 'left' ? `text-align-left`: textPosition === 'right'? `text-align-right` : `text-align-center` } caption-container`}>{caption}</div>
                         <p className='title-text'>{title}</p>
-                        <CustomButton large>Shop Now</CustomButton>
+                        <CustomButton onClick={() => history.push('/shop')} large>Shop Now</CustomButton>
                     </div>
         
                 </div>
@@ -28,4 +29,4 @@ const ImageSlider = ({imageUrl, highImageUrl,  caption, textPosition, title, act
     )
 };
 
-export default withWindowResize(ImageSlider);
+export default withRouter(withWindowResize(ImageSlider));

@@ -44,8 +44,8 @@ const Header = ({ offset, location, currentUser, signOutStart, hidden, history, 
                     </Link>
                 </div>
                 <Link to='/shop' className={`${darkContent? `dark-option`: `option`}`}>Shop Now</Link>
-                <Link to='#' className={`${darkContent? `dark-option`: `option`}`}>Our Store</Link>
-                <Link to='#' className={`${darkContent? `dark-option`: `option`}`}>About Us</Link>
+                <Link to='/store' className={`${darkContent? `dark-option`: `option`}`}>Our Store</Link>
+                <Link to='/contact' className={`${darkContent? `dark-option`: `option`}`}>Contact Us</Link>
             </div>
      
             <div className='header-right-menu'>
@@ -74,8 +74,8 @@ const Header = ({ offset, location, currentUser, signOutStart, hidden, history, 
                 menuToggle?
                 <div className='menu-hover'>
                     <Link to='/shop' onClick={handleMenu} className='option-menu'>Shop Now</Link>
-                    <Link to='#' onClick={handleMenu} className='option-menu'>Our Store</Link>
-                    <Link to='#' onClick={handleMenu} className='option-menu'>About Us</Link>
+                    <Link to='/store' onClick={handleMenu} className='option-menu'>Our Store</Link>
+                    <Link to='/contact' onClick={handleMenu} className='option-menu'>Contact Us</Link>
                     <div className='line'/>
                     <Link to='/checkout' onClick={handleMenu} className='option-menu column'>
                         My Cart

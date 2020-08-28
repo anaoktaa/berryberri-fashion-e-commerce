@@ -1,38 +1,38 @@
 export const SECTIONS_DATA = [
     {
         title: 'outerwears',
-        imageUrl: "https://i.ibb.co/NLP9kdm/aoutwear-min.jpg",
+        imageUrl: "https://i.ibb.co/7Nx4srP/aoutwear-min.jpg",
         id: 1,
         linkUrl: 'shop/outerwears'
     },
     {
         title: 'dresses',
-        imageUrl: "https://i.ibb.co/VHFRQ6C/dress-min.jpg",
+        imageUrl: "https://i.ibb.co/B4Lxyvs/dress-min.jpg",
         id: 2,
         linkUrl: 'shop/dresses'
     },
     {
       title: 'bottoms',
-      imageUrl: "https://i.ibb.co/mGw99Yv/bottom-min.jpg",
+      imageUrl: "https://i.ibb.co/1nvD50G/bottom-min.jpg",
       id: 3,
       linkUrl: 'shop/bottoms'
     },
     {
         title: 'tops',
-        imageUrl: "https://i.ibb.co/Hr8wvwm/top-min.jpg",
+        imageUrl: "https://i.ibb.co/mG1XJGX/top-min.jpg",
         id: 4,
         linkUrl: 'shop/tops'
     },
     {
       title: 'accessories',
-      imageUrl: "https://i.ibb.co/93D8MnT/s-o-c-i-a-l-c-u-t-a-XJdmnxauw-Y-unsplash-min.jpg",
+      imageUrl: "https://i.ibb.co/27myk3C/s-o-c-i-a-l-c-u-t-a-XJdmnxauw-Y-unsplash-min.jpg",
       id: 5,
       linkUrl: 'shop/accessories',
       size: 'large'
     },
     {
       title: 'shoes',
-      imageUrl: "https://i.ibb.co/jHTpgJS/shoes-min.jpg",
+      imageUrl: "https://i.ibb.co/t2jkCbr/shoes-min.jpg",
       id: 6,
       linkUrl: 'shop/shoes',
       size: 'large'
@@ -66,7 +66,7 @@ export const BEST_SELLER = [
     {
         id: "wg01qjsnql",
         // imageUrl: "https://i.ibb.co/N3bgYtT/282736-besyana-tunic-blue-blue-L2-VYH.jpg",
-        imageUrl: "https://i.ibb.co/VH4Kj9F/282736-besyana-tunic-blue-blue-L2-VYH-min.jpg",
+        imageUrl: "https://i.ibb.co/N3bgYtT/282736-besyana-tunic-blue-blue-L2-VYH.jpg",
         name: "Besyana Tunic Blue",
         price: "195000",
         description : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus"
@@ -74,7 +74,7 @@ export const BEST_SELLER = [
     {
         id: "6npy4n5023",
         // imageUrl: "https://i.ibb.co/6rSR1L5/282576-dafia-top-peach-pink-C18-TV.jpg",
-        imageUrl: "https://i.ibb.co/26VWYnr/282576-dafia-top-peach-pink-C18-TV-min.jpg",
+        imageUrl: "https://i.ibb.co/6rSR1L5/282576-dafia-top-peach-pink-C18-TV.jpg",
         name: "Dafia Top Peach",
         price: "432000",
         description : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus"
@@ -82,15 +82,15 @@ export const BEST_SELLER = [
     {
         id: "pr2qejc8qt",
         // imageUrl: "https://i.ibb.co/nwT7XQ6/282454-ikana-loose-dress-grey-grey-Y9-V5-C.jpg",
-        imageUrl: "https://i.ibb.co/vxW81LV/282646-beyna-pants-blue-blue-0-PVW6-min.jpg",
-        name: "Beyna Pants Blue",
+        imageUrl: "https://i.ibb.co/nwT7XQ6/282454-ikana-loose-dress-grey-grey-Y9-V5-C.jpg",
+        name: "Ikana Loose Dress Grey",
         price: "174000",
         description : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus"
     },
     {
         id: "uro6qgcegj",
         // imageUrl: "https://i.ibb.co/6sDSB1H/282702-dizie-pants-peach-pink-M0-ONO.jpg",
-        imageUrl: "https://i.ibb.co/hdD980F/282707-dazy-pants-peach-pink-65-I87-min.jpg",
+        imageUrl: "https://i.ibb.co/6sDSB1H/282702-dizie-pants-peach-pink-M0-ONO.jpg",
         name: "Dizie Pants Peach",
         price: "110000",
         description : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus"

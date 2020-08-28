@@ -25,7 +25,8 @@ const CheckoutPage = lazy(() => import('./pages/checkout/checkout.component'));
 const PaymentPage = lazy(() => import('./pages/payment/payment.component'));
 const ErrorBoundary = lazy(() => import('./components/error-boundary/error-boundary.component'));
 const Notification = lazy(() => import('./components/notification/notification.component'));
-
+const Store = lazy(() => import('./pages/store/store.component'));
+const Contact = lazy(() => import('./pages/contact/contact.component'));
 
 
 const App = ({ location, currentUser, checkUserSession, notifProps, setNotifClose, totalCartItems }) => {
@@ -66,6 +67,8 @@ const App = ({ location, currentUser, checkUserSession, notifProps, setNotifClos
             <ErrorBoundary>
               <Route path='/shop' component={ShopPage}/>    
               <Route exact path='/checkout' component={CheckoutPage}/>
+              <Route exact path='/store' component={Store}/>
+              <Route exact path='/contact' component={Contact}/>
               <Route exact path='/signin' 
                 render={() => currentUser ? (<Redirect to='/'/>) : (<SignInPage/>)}
               />

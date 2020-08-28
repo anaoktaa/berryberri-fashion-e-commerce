@@ -1,0 +1,35 @@
+.store-1-container {
+    height: 450px;
+    background-image: url('https://i.ibb.co/8gThV03/s-o-c-i-a-l-c-u-t-7-Kk-Di-Ss5-Ud-Q-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fresh-info {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 180px;
+    color: #e0c313;
+    transform: rotate(-6deg);
+}
+
+.new-stores {
+    margin-top: 40px;
+    /* color: white; */
+    line-height: 23px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    .store-1-container {
+        background-size: 100%;
+        background-image: url('https://i.ibb.co/sthC47n/logan-weaver-Ki-YQn4o-K7w-unsplash.jpg');
+    }    
+    .fresh-info {
+        font-size: 70px;
+    }
+}
