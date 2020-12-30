@@ -18,7 +18,7 @@ Proses pembayaran dikelola dengan menggunakan Stripe API. Karena proyek ini adal
 
 
 ### Persisting Data
-Data keranjang belanja pengguna harus tetap ada meskipun pengguna menutup atau merefresh tab atau window browser, jadi terdapat proses untuk menyimpan data keranjang belanja pengguna. Cara pertama yaitu dengan menyimpan data keranjang pada backedn dalam hal menggunakan firebase untuk user yang telah melakukan proses autentikasi. Cara kedua yaitu dengan memanfaatkan localstorage untuk user yang belum melakukan proses autentikasi.
+Data keranjang belanja pengguna harus tetap ada meskipun pengguna menutup atau merefresh tab atau window browser, jadi terdapat proses untuk menyimpan data keranjang belanja pengguna. Cara pertama yaitu dengan menyimpan data keranjang pada backend dalam hal menggunakan firebase untuk user yang telah melakukan proses autentikasi. Cara kedua yaitu dengan memanfaatkan localstorage untuk user yang belum melakukan proses autentikasi.
 
 
 
