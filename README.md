@@ -4,6 +4,7 @@
 
 ## Fitur dan Proses
 
+
 ### Data
 Data backend disimpan pada database firestore. Disisi frontend, untuk mengelola proses fetching data dengan menggunakan Redux dan juga memanfaatkan beberapa library lainnya seperti Reselect dan Redux Saga. Selain itu BerryBerri menggunakan Higher Order Component (HOC) yang digunakan untuk mengelola proses loading ketika data sedang diambil.
 
